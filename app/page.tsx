@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,6 +20,11 @@ export default function Home() {
           Your task is to build the feature at the <code>/webinars</code> page.
         </p>
         <p className="mt-4 text-gray-500">Good luck!</p>
+        <div className="mt-8">
+          <Link href="/webinars" className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 inline-block">
+            View Webinars
+          </Link>
+        </div>
       </div>
     </main>
   );
