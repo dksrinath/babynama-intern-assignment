@@ -29,10 +29,23 @@ After you've finished coding, please complete the following two steps.
 
 1.  **Deploy Your Work:** Deploy your project to Vercel (it's free).
 2.  **Complete this README:** **This is the most important step.** Edit this `README.md` file in your repository to include:
-    * **Live URL:** [Add your Vercel deployment link here]
-    * **Choices Made:** [Briefly explain one technical choice you made]
-    * **Roadblock & Learning:** [Describe one small thing you had to look up and how you solved it]
+
+    * **Live URL:** https://babynama-intern-assignment-murex.vercel.app/webinars
+
+    * **Choices Made:**
+        * I created a separate WebinarCard component to keep my code organized and reusable
+        * Instead of writing all the card HTML directly in the main page, I made one component that I could use for each webinar
+        * This made it easier to manage the styling and functionality for each card
+
+    * **Roadblock & Learning:**
+        * I forgot to add the navigation bar at first, so my page looked incomplete
+        * I visited the actual Babynama website https://babynama.com/ to see how their navbar looked
+        * I recreated it to match their branding and design
+
     * **Screenshot:**
-        ![Your Screenshot Here](https://via.placeholder.com/600x400.png?text=Paste+Screenshot+of+Your+App+Here)
+      
+        ![Webinar screenshot](https://github.com/user-attachments/assets/57f717db-6d2c-4936-83eb-7c3d978fb970)
+
+
 
 To submit, please share the link to your finished GitHub repository with us. Good luck!
